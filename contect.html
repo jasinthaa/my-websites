@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        ::placeholder{
+            color: rgb(41, 35, 234);
+        }
+        div{
+            border-radius: 16px;
+            width: 40%;
+            background-color: aquamarine;
+            margin: auto;
+        }
+        body{
+            background-color: silver;
+        }
+        form{
+            padding: 25px;
+        }
+        .button {
+            border: none;
+            padding: 5px 35px;
+            margin: 15px;
+            border-radius: 14px;
+            background-color: rgb(13, 134, 227);
+        }
+        .div2{
+            margin: auto;
+            width: 40%;
+
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Form</h1>
+    <div>
+        <form action="">
+            Name: <input type="text" placeholder="Enter your name"><br><br>
+            D.O.B:<input type="date"><br><br>
+            Phone Number:<input type="number" placeholder="Enter your number"><br><br>
+            Gender:
+            <input type="radio" name="Gender">male
+            <input type="radio" name="Gender">female
+            <input type="radio" name="Gender">others
+            <br><br>
+            E-mail:<input type="email" placeholder="Enter your email"><br><br>
+            Uplode File:<input type="file"><br><br>
+            Corse:
+            <select>
+                <option value="">Selecct your course</option>
+                <option value="">Computer Science</option>
+                <option value="">Computer Application</option>
+                <option value="">Physics</option>
+                <option value="">Cchemistry</option>
+            </select>
+            <br><br>
+            Qualication: <br><br>
+            <input type="checkbox">10th<br>
+            <input type="checkbox">12th<br>
+            <input type="checkbox">Ug<br>
+            <input type="checkbox">Pg<br><br>
+            YoursFeedback: <br>
+            <textarea cols="25" rows="5" placeholder="YoursFeedback"></textarea><br><br>
+            <input type="button" value="Calculate">
+            <input type="submit">
+            <button>submit this Form</button><br><br>
+        </form>
+        <a href="index.html"><button class="button">Go to home page</button></a>
+    </div>
+</body>
+</html>
